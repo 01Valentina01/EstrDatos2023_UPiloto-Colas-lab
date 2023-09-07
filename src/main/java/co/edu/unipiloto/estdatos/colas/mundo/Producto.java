@@ -9,5 +9,14 @@ package co.edu.unipiloto.estdatos.colas.mundo;
  * @author SG702-15
  */
 public class Producto {
+    private String nombre;
+    private String tiempoPreparacion;         
+    private double costo;        
+    
+    public Producto(){
+        
+    }
+    
+    
     
 }
