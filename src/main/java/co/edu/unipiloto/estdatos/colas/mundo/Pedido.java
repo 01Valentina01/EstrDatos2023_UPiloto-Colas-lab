@@ -9,5 +9,12 @@ package co.edu.unipiloto.estdatos.colas.mundo;
  * @author SG702-15
  */
 public class Pedido {
+    private String horaPedido;         
+    private String esDomicilio;
+    
+    public Pedido(){
+        
+    }
+    
     
 }
