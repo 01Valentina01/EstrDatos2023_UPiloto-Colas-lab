@@ -17,6 +17,44 @@ public class Producto {
         
     }
     
-    
-    
+    public Producto(String nombre, String tiempoPreparacion, double costo) {
+
+        this.nombre = nombre;
+        this.edad = tiempoPreparacion;
+        this.costo = costo;
+
+    }
+    public String getNombre() {
+
+    return nombre;
+
+    }
+    public void setNombre(String nombre) {
+
+        this.nombre = nombre;
+
+    }
+public String getTiempoPreparacion() {
+
+    return tiempoPreparacion;
+
+    }
+    public void setTiempoPreparacion(String tiempoPreparacion) {
+
+        this.tiempoPreparacion = tiempoPreparacion;
+
+    }
+    public double getCosto() {
+
+    return  costo;
+
+    }
+    public void setCosto(double costo) {
+
+        this.costo = costo;
+
+    }
 }
+
+    
+
