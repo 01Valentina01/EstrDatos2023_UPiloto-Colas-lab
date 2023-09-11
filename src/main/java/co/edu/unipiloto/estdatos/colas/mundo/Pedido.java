@@ -15,6 +15,33 @@ public class Pedido {
     public Pedido(){
         
     }
-    
+    public String getHoraPedido() {
+        return horaPedido;
+    }
+
+    public void setHoraPedido(String horaPedido) {
+        this.horaPedido = horaPedido;
+    }
+
+    public String getEsDomicilio() {
+        return esDomicilio;
+    }
+
+    public void setEsDomicilio(String esDomicilio) {
+        this.esDomicilio = esDomicilio;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" + "horaPedido=" + horaPedido + ", esDomicilio=" + esDomicilio + ", direccion=" + direccion + '}';
+    }
     
 }
