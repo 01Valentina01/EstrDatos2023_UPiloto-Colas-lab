@@ -54,6 +54,11 @@ public String getTiempoPreparacion() {
         this.costo = costo;
 
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" + "nombre=" + nombre + ", tiempoPreparacion=" + tiempoPreparacion + ", costo=" + costo + '}';
+    }
 }
 
     
